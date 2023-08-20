@@ -22,7 +22,8 @@ The model construction process is described extensively in the Jupyter Notebook 
 
 There were numerous issues with the data collection protocol and how it was conducted which merit mention. These include but are not limited to:
 
-- The fact that only 9 species were recorded at both sites exacerbates both the difficulty in using taxonomic grouping in any modelling system and also the observed differences in behavioural patterns.
+- Several covariates were not accounted for, most notably tidal cycle, which has been shown to impact bird behaviour in several families (Raposa, et al., 2009; Grandeiro, et al., 2006)
+- The fact that only 9 species were recorded at both sites exacerbated both the difficulty in using taxonomic grouping in any modelling system and also the observed differences in behavioural patterns.
 - Evidence of intra-specific variation in behaviour in some bird species - certainly a possible covariate, supported by several pieces of research, such as:
     -  Influence of microhabitat - remarkable asynchrony in breeding timing of Great Tits *Parus major* related to oak budding within just 20m of their breeding site in woodland habitats in Britain, thus causing a mosaic of Great Tit pairs at different stages of their breeding cycle even at the same site on the same day (Hinks, et al., 2015; Tong & Sheldon, 2020).
     -  Great Tit exploration behaviour is also likely to be governed by individuality, both in average level of exploration and its plasticity (Dingemanse, et al., 2012);
@@ -36,6 +37,24 @@ There were numerous issues with the data collection protocol and how it was cond
 
 Consequently, the data quality is likely to have been severely impacted, which in turn limits the generalizability and the utility of this research.
 
+### References
+Cramp, S. et al., 1993. *Birds of the Western Palearctic: Handbook of the Birds of Europe, the Middle East and North Africa, Volume V (Tyrant Flycatchers to Thrushes)*. Oxford: Oxford University Press.
+
+Dingemanse, N. et al., 2012. Variation in personality and behavioural plasticity across four populations of the great tit *Parus major*. *Journal of Animal Ecology*, 81(1), pp. 116-126.
+
+Dong, S. & Clayton, D., 2009. Habituation in Songbirds. *Neurobiology of Learning and Memory*, 92(2), pp. 183-188.
+
+Elgar, M., 1989. Predator Vigilance and Group Size in Mammals and Birds: A Critical Review of the Empirical Evidence. *Biological Reviews*, 64(1), pp. 13-33.
+
+Grandeiro, J., Dias, M., Martins, R. & Palmeirim, J., 2006. Variation in numbers and behaviour of waders during the tidal cycle: implications for the use of estuarine sediment flats. *Acta Oecologica*, Volume 29, pp. 293-300.
+
+Hinks, A. et al., 2015. Scale-Dependent Phenological Synchrony between Songbirds and Their Caterpillar Food Source. *The American Naturalist*, 186(1), pp. 84-97.
+
+Oberweger, K. & Goller, F., 2001. The metabolic cost of birdsong production. *The Journal of Experimental Biology*, 204(19), pp. 3379-3388.
+
+Raposa, K., McKinney, R. & Beaudette, A., 2009. Effects of Tide Stage on the Use of Salt Marshes by Wading Birds in Rhode Island. *Northeastern Naturalist*, 16(2), pp. 209-224.
+
+Tong, W. & Sheldon, B., 2020. *Understanding bird behavior: An illustrated guide to what birds do and why*. Princeton: Princeton University Press.
 
 [//]: #
 
